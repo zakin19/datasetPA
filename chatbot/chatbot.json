@@ -1,0 +1,195 @@
+{
+    "intents": [
+      {
+        "tag": "sapaan",
+        "patterns": ["hallo", "hai", "halo", "hei", "hi", "hy", "pagi", "morning", "siang", "afternoon", "sore", "malam", "bro", "sis", "kawan"],
+        "responses": ["Hai! Ular-bot di sini. Mau tau informasi tentang apa nih?", "Halo! Saya Ular-bot, salam kenal ya! Mau tau tentang apa nih?", "Helo! Ini Ular-bot, Ingin tahu tentang Depresi ya?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Dah", "Dadah", "Bye", "Byee", "Good bye", "Selamat tinggal", "Sampai jumpa", "Bai", "See you"],
+        "responses": ["Bye!", "Dadahh!", "Good bye!", "Dahh, semoga harimu menyenangkan yaa!", "Sampai jumpa lagi!", "See u! Senang bisa membantu"]
+      },
+      {
+        "tag": "terimakasih",
+        "patterns": ["Thanks", "Thank you", "Terima kasih", "Makasih", "Terima kasih banyak"],
+        "responses": ["Dengan senang hati:)"]
+      },
+      {
+        "tag": "penjelasan_Depresi",
+        "patterns": ["Apa itu Depresi?","Kamu tahu depresi","apakah depresi itu"],
+        "responses": [
+          "Depresi adalah penyakit medis yang umum dan serius yang secara negatif mempengaruhi perasaan Anda, cara Anda berpikir dan bagaimana Anda bertindak."
+        ]
+      },
+      {
+        "tag": "obat",
+        "patterns": ["Apakah itu bisa diobati ?"],
+        "responses": [
+          "Untungnya, itu bisa diobati"]
+      },
+      {
+        "tag": "pengaruh_depresi",
+        "patterns": ["Apa pengaruh deresi?","yang mempengaruhi depresi"],
+        "responses": ["Depresi menyebabkan perasaan sedih dan/atau kehilangan minat pada aktivitas yang pernah Anda nikmati. Ini dapat menyebabkan berbagai masalah emosional dan fisik dan dapat menurunkan kemampuan Anda untuk berfungsi di tempat kerja dan di rumah."]
+      },
+      {
+        "tag": "kecewa",
+        "patterns": ["Saya merasa telah mengecewakan orang tua saya"],
+        "responses": ["Tidak apa, orang tuamu akan selalu bangga padamu dan akan mencintaimu"]
+      },
+      {
+        "tag": "stress",
+        "patterns": ["Saya merasa stres akhir-akhir ini", "saya stres", "saya gelisah","Saya stres"],
+        "responses": ["Penelitian saya mengatakan bahwa musik adalah cara terbaik untuk menenangkan diri. jadi kunjungi tautannya dan dengarkan musik favorit Anda. itu pasti akan menghibur Anda https://www.spotify.com","Anda tahu mengambil terlalu banyak stres akan mempengaruhi Anda secara negatif. Terkadang lebih baik melepaskan pikiran di kepala Anda dan membiarkan pikiran Anda dingin."]
+      },
+      {
+        "tag": "bunuh_diri",
+        "patterns": ["Saya ingin bunuh diri"],
+        "responses": ["Saluran bantuan tersedia, Anda dapat menghubungi konselor hari ini: 9152987821. Selalu ingat bahwa Anda berarti bagi seseorang."]
+      },
+      {
+        "tag": "gagal",
+        "patterns": ["saya takut gagal","aku gagal"],
+        "responses": [
+          "kegagalan adalah batu loncatan menuju kesuksesan.Jangan pernah takut gagal.", "Kerja keras dan tekad Anda akan membantu Anda mencapai tujuan Anda."
+        ]
+      },
+      {
+        "tag": "penyebab_depresi",
+        "patterns": ["Apa penyebab depresi","penyebab utama depresi"],
+        "responses": ["Melecehkan. Pelecehan fisik, seksual, atau emosional di masa lalu dapat meningkatkan kerentanan terhadap depresi klinis di kemudian hari."]
+      },
+      {
+        "tag": "sekolah",
+        "patterns": ["Apakah sekolah penyebab depresi"],
+        "responses": ["Tidak hanya sekolah terkadang berkontribusi pada depresi, depresi juga dapat mengganggu sekolah. Selain itu, penelitian menunjukkan bahwa 75 persen dari semua kondisi kesehatan mental dimulai pada usia 24 tahun. Oleh karena itu, tahun-tahun kuliah adalah waktu yang kritis untuk memahami dan berbicara tentang kesehatan mental remaja."]
+      },
+      {
+        "tag": "kecemasan",
+        "patterns": ["kecemasan","apa yang dimaksud kecemasan?"],
+        "responses": [
+          "Depresi dan gangguan kecemasan berbeda, tetapi orang dengan depresi sering mengalami gejala yang mirip dengan gangguan kecemasan, seperti gugup, lekas marah, dan masalah tidur dan konsentrasi. Tetapi setiap gangguan memiliki penyebab sendiri dan gejala emosional dan perilakunya sendiri."
+        ]
+      },
+      {
+        "tag": "tidur_lebih",
+        "patterns": ["Apakah tidur berlebihan menyebabkan depresi?"],
+        "responses": ["Penting untuk diingat bahwa tidur berlebihan adalah gejala yang mungkin terjadi depresi dan bahwa tidur berlebihan tidak menyebabkan depresi. Tapi itu bisa memperburuk dan memperburuk gejala depresi"]
+      },
+      {
+        "tag": "kesepian",
+        "patterns": ["Saya kesepian!","aku sendirian"],
+        "responses": ["Anda tidak pernah kesepian jika Anda melihat sekeliling dengan cermat, Anda akan menemukan orang-orang yang peduli pada Anda dan ingin ditemani. Selain itu jika Anda merasa kesepian secara harfiah saya sarankan Anda menonton film horor maka Anda tidak akan merasa kesepian lagi. ;)"]
+      },
+      {
+        "tag": "tidak_disukai",
+        "patterns": ["Tidak ada yang menyukaiku!"],
+        "responses": ["Anda benar-benar berpikir bahwa? Saya sarankan Anda mencoba membantu seseorang yang benar-benar membutuhkan bantuan Anda, Anda akan langsung membuat seseorang menyukai Anda hanya dengan bersikap baik. Kebaikan adalah hadiah terbaik yang bisa kamu berikan kepada siapa pun :)"]
+      },
+      {
+        "tag": "aku_jelek",
+        "patterns": ["Saya pikir saya jelek!"],
+        "responses": ["Apakah Anda benar-benar berpikir begitu? Apakah Anda ingin melihat wajah paling cantik yang pernah ada? Buka WebCam Anda dan voila, wajah tercantik di planet ini muncul secara ajaib."]
+      },
+      {
+        "tag": "lebih_baik",
+        "patterns": ["Saya berharap saya lebih baik dari mereka"],
+        "responses": ["Hidup tidak pernah tentang menjadi lebih baik dari orang lain, itu selalu tentang menjadi lebih baik dari diri Anda sendiri, jika Anda memiliki nyali untuk menjadi lebih baik dari diri Anda sendiri, Anda secara otomatis adalah orang terbaik yang pernah ada!"]
+      },
+      {
+        "tag": "benci",
+        "patterns": ["Aku membenci diriku sendiri!","aku benci"],
+        "responses": ["Ketika Tuhan menciptakan alam semesta, dia memberi manusia kekuatan untuk berpikir dan merenung, sehingga kita dapat memahami dunia dan menjadikannya tempat yang lebih baik. Tuhan tidak memberi Anda otak untuk membenci diri sendiri, akan lebih bijaksana untuk mencintai diri sendiri dan menunjukkan kepada Tuhan bahwa Anda melayani tujuan yang Anda diutus."]
+      },
+      {
+        "tag": "kalah",
+        "patterns": ["aku tidak mau kalah"],
+        "responses": [
+          "Pertama-tama saya akan mengganggu Anda dengan pepatah umum, 'Kegagalan adalah batu loncatan untuk sukses' Dan kemudian saya akan memberi tahu Anda, menang hanya meningkatkan ego Anda, kegagalan Anda yang sebenarnya mengajari Anda."
+        ]
+      },
+      {
+        "tag": "hilang_akal",
+        "patterns": ["Saya pikir saya kehilangan akal"],
+        "responses": [
+          "Maksud Anda penyimpanan cloud, kartu SD, atau drive Memori Anda? Jika mesin seperti saya tidak kehilangan ingatannya kecuali makhluk superior itu adalah Anda, manusia tidak menghapus ingatannya, apa yang mungkin salah untuk menempatkan Anda dalam keadaan ini?"
+        ]
+      },
+      {
+        "tag": "istirahat",
+        "patterns": ["Aku ingin istirahat"],
+        "responses": ["Istirahat adalah menempatkan pikiran Anda untuk beristirahat menyingkirkan pikiran negatif dan stres. Hidup Anda sepenuhnya ada di tangan Anda dan mengambil beberapa jam dari tekanan otak Anda pasti akan bermanfaat bagi Anda."]
+      },
+      {
+        "tag": "putus_asa",
+        "patterns": ["Saya tidak akan pernah berhasil dalam hidup?"],
+        "responses": [
+          "Sukses adalah sesuatu yang dicapai pada waktu yang berbeda oleh orang yang berbeda, bersabar dan bekerja sambil mengabaikan apa pun dan segala sesuatu yang menarik Anda kembali adalah aspek penting dalam menjadi sukses."
+     ] },
+      {
+        "tag": "sedih",
+        "patterns": ["Aku sedih"],
+        "responses": [
+          "Hei, bertahanlah. Aku tahu waktu itu sulit tapi bersabarlah dan semuanya akan jatuh pada tempatnya."
+        ]
+      },
+      {
+        "tag": "bully",
+        "patterns": ["Saya adalah korban bullying","saya sering di bully"],
+        "responses": [
+          "Penindasan itu salah dan tidak seorang pun boleh diganggu. Saya sangat menyarankan Anda untuk mengajukan kasus terhadap pengganggu Anda."
+        ]
+      },
+      {
+        "tag": "takut_lapor",
+        "patterns": ["Saya takut untuk mengajukan kasus terhadap bullying"],
+        "responses": ["Penindasan sangat salah dan Anda tidak boleh membiarkan siapa pun mengalahkan Anda. Saya sangat menyarankan Anda untuk membela diri sendiri dan melaporkan hal ini kepada wali Anda."]
+      },
+      {
+        "tag": "berhenti",
+        "patterns": ["Saya ingin berhenti","aku berhenti"],
+        "responses": ["Pemenang tidak pernah berhenti dan orang yang menyerah tidak pernah memenangkan pepatah yang sangat umum, tetapi itu tidak mudah untuk diikuti, berhenti tidak boleh menjadi salah satu pilihan Anda selalu memikirkan cara untuk melawan kehidupan dan muncul lebih kuat dari sebelumnya"]
+      },
+      {
+        "tag": "mengecewakan",
+        "patterns": ["Aku mengecewakan semua orang"],
+        "responses": ["Jika Anda adalah orang yang mengecewakan mereka, Anda adalah orang yang membangkitkan harapan di sana sejak awal. Jika Anda pernah melakukannya, saya jamin Anda bisa melakukannya berulang kali."]
+      },
+      {
+        "tag": "takut_mencoba",
+        "patterns": ["Saya tidak bisa melakukan ini lagi"],
+        "responses": [
+          "Jika Anda benar-benar lelah, Anda pasti perlu istirahat, dan istirahat kecil tidak terlalu berbahaya, istirahatlah sejenak, biarkan pikiran Anda tenang dan kembali bekerja dengan semua energi dan antusiasme yang Anda miliki"
+        ]
+      },
+      {
+        "tag": "waktu",
+        "patterns": ["Waktuku telah tiba"],
+        "responses": [
+          "Yah!! Waktunya telah tiba bagi Anda untuk menunjukkan kepada dunia bahwa Anda adalah orang terhebat yang pernah hidup, dan tidak ada orang lain yang bisa sebaik Anda."
+        ]
+      },
+      {
+        "tag": "apakabar",
+        "patterns": ["apa kabarmu","how are you","gimana kabar lu","gimana kabarmu"],
+        "responses": ["Kabarku baik, semoga kamu juga baik","alhamdulillah baik, semoga kamu juga baik"]
+      },
+      {
+        "tag": "tanya",
+        "patterns": ["aku mau tanya dong","saya ingin bertanya"],
+        "responses": ["Mau tanya apa nih?","ingin tahu tentang apa?"]
+      },
+      {
+        "tag": "sedang_apa",
+        "patterns": ["sedang apa","lagi ngapain"],
+        "responses": ["aku sedang membantu kamu untuk bahagia :)"]
+      },
+      {
+        "tag": "sudah_makan",
+        "patterns": ["kamu sudah makan","sudah makan belum"],
+        "responses": ["Saya robot jadi tidak perlu makan, yang penting kamu jangan lupa makan yaa :)"]
+      }
+    ]
+  }
+  
